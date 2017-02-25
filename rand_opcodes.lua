@@ -14,7 +14,7 @@ local function writefile(name, content)
     f:close()
 end
 
-assert((...), "have to pass lua source code path")
+assert((...))
 
 local source_dir = string.gsub((...), "/$", "")
 
